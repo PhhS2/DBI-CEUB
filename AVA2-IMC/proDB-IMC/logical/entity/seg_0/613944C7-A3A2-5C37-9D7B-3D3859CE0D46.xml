@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="613944C7-A3A2-5C37-9D7B-3D3859CE0D46" name="Ciente">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-03-28 00:53:26 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>clt</preferredAbbreviation>
+<shortName>Ciente</shortName>
+<synonym>Ciente</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="F3310EC1-5985-1630-5885-352EA34931D9">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-03-28 00:53:56 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo" id="0C93B8A0-1F34-7DA8-8886-E7DF9B2D7B11">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-03-28 00:54:08 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idade" id="DC7C9088-E570-ABFC-0222-D6B0074055E3">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 22:40:06 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente" id="546770F4-F5D1-4A16-7E06-8CC81A6E9D5F">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 22:52:51 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="enderecoCliente" id="937A1953-7BCB-03EE-FFB1-5D250FEFF9BB">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 22:53:07 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimentoCliente" id="B5B8C1A1-D97F-69E1-A09F-66C37AA8F0A9">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 22:53:47 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexoCliente" id="5E11700B-FCBA-B09D-982A-DCA4546A0707">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 22:54:10 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefoneCliente" id="81BC491C-CCC7-D39E-0A43-A22355B72BD4">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 22:54:14 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="18DD4ED4-F8A8-FC23-9C20-AE01710B5854">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 22:55:28 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9A375A0E-802C-9085-7952-4EBF89E4FCD2" name="Ciente PK">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-04 00:26:05 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>546770F4-F5D1-4A16-7E06-8CC81A6E9D5F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

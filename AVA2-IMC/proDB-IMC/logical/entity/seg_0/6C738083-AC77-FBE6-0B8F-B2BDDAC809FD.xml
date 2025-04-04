@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6C738083-AC77-FBE6-0B8F-B2BDDAC809FD" name="PlanoCliente">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 23:04:31 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>plnclt</preferredAbbreviation>
+<shortName>PlanoCliente</shortName>
+<synonym>PlanoCliente</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="A5512D51-6F52-DE6F-F4C0-67AFA80BC0A4">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 23:05:28 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preco" id="D4BBA587-F458-8269-2D18-3B0BFF4620A0">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 23:05:03 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricaoPlano" id="C807CABF-84DE-BDE8-4D47-5BD08837844F">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 23:05:45 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="033157BE-E65B-0858-7A31-D86446102103">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 23:06:06 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pesoDesejadoCliente" id="DCF4A58D-697D-79AF-48DC-AB254A7D160A">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 23:12:46 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente" id="F1273C71-19AC-D5AA-3487-2B602958950F">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-04 00:26:06 UTC</createdTime>
+<generatorID>3A308F8B-B244-0E94-B3D0-6404653582B2</generatorID>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<referedAttribute>546770F4-F5D1-4A16-7E06-8CC81A6E9D5F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="37262F35-5C5F-CC29-2F2F-799137BF6CF3" name="PlanoCliente PK">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-04 00:26:05 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F1273C71-19AC-D5AA-3487-2B602958950F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

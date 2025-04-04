@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0D97CF6E-4C92-4972-455D-53077077FDBE" name="FinsNutritive">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 22:43:45 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>fine</preferredAbbreviation>
+<shortName>FinsNutritive</shortName>
+<synonym>FinsNutritive</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="razaoSocial" id="14FBF3F6-6E83-235E-FDBC-9383C35FDD03">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 22:45:27 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="enderecoFinsNutritive" id="AE2B3AC7-4FC3-D4E0-F33E-457D214E5AE2">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 22:45:54 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contato" id="27984421-17A0-5798-F544-1AE29B485F4D">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 22:47:08 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnpj" id="155AB0FD-5828-CABC-EBAE-828DF16C895F">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 22:47:26 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="inscricaoEstadual" id="41C6DE2F-736F-2F49-5A5A-172CA7E14408">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 22:47:32 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horarioFuncionamento" id="95B77364-F464-F0F9-5F47-9F4274A73606">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 22:47:55 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="atividade" id="70CCB149-301B-EA3C-0A8B-59B76382FBE8">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 22:48:08 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente" id="B06A1912-E308-CBDC-A92D-71E1005296E4">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-04 00:26:06 UTC</createdTime>
+<generatorID>ECD2C304-B27E-436E-9C52-685B445EC881</generatorID>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<referedAttribute>546770F4-F5D1-4A16-7E06-8CC81A6E9D5F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

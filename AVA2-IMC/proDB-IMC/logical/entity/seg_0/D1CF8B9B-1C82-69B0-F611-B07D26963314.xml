@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D1CF8B9B-1C82-69B0-F611-B07D26963314" name="Imccliente">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-03-28 00:55:54 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Imc</preferredAbbreviation>
+<shortName>Imccliente</shortName>
+<synonym>Imccliente</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="altura" id="CE7C6DC5-713F-257F-02F5-FBBC97719772">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 23:28:35 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peso" id="46F8DD10-60E7-9C94-FDB6-E81DAF91C60F">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 23:28:53 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="7B84897A-9790-1A0D-FEAF-5A089740782D">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 22:29:19 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pesoAtual" id="89CDF96B-0558-5463-D311-FAE215BD8965">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 23:00:27 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imcPesoAtual" id="3DD7E20F-EA90-3CB7-3206-E3D695038D1C">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 23:01:25 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imcPesoAnterior" id="D9FBBED7-F75D-AA48-1EEF-A9507A601887">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 23:01:41 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente" id="4D7CAACE-CDC2-15F9-1434-4485D93168CA">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-04 00:26:06 UTC</createdTime>
+<generatorID>6BCA7262-5FD7-917D-4E03-2323189A7AFB</generatorID>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<referedAttribute>546770F4-F5D1-4A16-7E06-8CC81A6E9D5F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

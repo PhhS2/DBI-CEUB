@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DE9130BF-D4BE-BFFB-0FE6-7055D192C06C" name="Nutricionista">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 23:41:44 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>nta</preferredAbbreviation>
+<shortName>Nutricionista</shortName>
+<synonym>Nutricionista</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nomeProfissional" id="31089652-C32F-F6D0-FDC2-B793206FBDD3">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 23:51:47 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contato" id="8E50958B-2182-BF1F-BE94-A8C5B4CA2CE3">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 23:52:06 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfNutricionista" id="87BC9082-0B8B-BD05-6260-4F0F27C80F2C">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 23:52:20 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="enderecoNutricionista" id="711BF092-7356-F513-BF9E-B5A517798679">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 23:56:35 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimento" id="30E717C0-D13E-5EB6-F739-1D255055AC6F">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-03 23:52:54 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="91064DE2-1326-C724-A162-C20A5D285A43" name="Nutricionista PK">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-04-04 00:25:48 UTC</createdTime>
+<ownerDesignName>proDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="B37C864E-3833-10B9-F896-743D7258CDD5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>87BC9082-0B8B-BD05-6260-4F0F27C80F2C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
