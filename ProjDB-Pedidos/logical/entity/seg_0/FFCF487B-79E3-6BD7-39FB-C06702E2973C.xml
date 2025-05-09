@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FFCF487B-79E3-6BD7-39FB-C06702E2973C" name="Vendedor">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-05-09 00:22:26 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="93CBC172-E31E-AAD0-3613-DFAB8293FEF5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nomeVendedor" id="7EB7D180-72E5-16E0-4CF2-E16AB6CF68F1">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-05-09 00:22:36 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="93CBC172-E31E-AAD0-3613-DFAB8293FEF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricularVendedor" id="E33C5583-51FE-58FC-8485-7AFF7485DFA9">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-05-09 00:22:49 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="93CBC172-E31E-AAD0-3613-DFAB8293FEF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E51BB3F2-F23B-7712-5F23-00AC01106AAB" name="Vendedor PK">
+<createdBy>paulorocha</createdBy>
+<createdTime>2025-05-09 00:22:45 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="93CBC172-E31E-AAD0-3613-DFAB8293FEF5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7EB7D180-72E5-16E0-4CF2-E16AB6CF68F1</attributeRef>
+<attributeRef>E33C5583-51FE-58FC-8485-7AFF7485DFA9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
