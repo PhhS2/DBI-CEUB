@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A015160-A793-19EC-DF88-A0F101FC7245" name="Mensalidade">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:48:58 UTC</createdTime>
+<generatorID>DD852282-AC25-693B-C56C-49BCF4E6ABF3</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idMensalidade" id="C9A8A86A-84F2-DE50-810B-D48B47D48961">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:48:58 UTC</createdTime>
+<generatorID>E89F4353-EFA6-FAB0-21C3-9E4ECF634DCE</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataPagamento" id="C6632C61-9EB2-DE3F-CD14-DFE719A4A0C7">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:48:58 UTC</createdTime>
+<generatorID>4CC51216-9B51-C69B-24C1-91EEA8897DFE</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valorMensalidade" id="30A35BE0-22FB-57CA-8855-9FF2013A41E7">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:48:58 UTC</createdTime>
+<generatorID>A1B93A2F-880A-6AE1-C0DF-6409AE569C68</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mesReferencia" id="01B4ED37-82FB-94DA-68A1-5EFE29E5A15F">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:48:58 UTC</createdTime>
+<generatorID>C0B6704D-3C76-DFF6-D264-035BFD905C8B</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="A0E3DAC9-905A-FCFD-741E-A8100B03EEB2">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:48:58 UTC</createdTime>
+<generatorID>E86F29AE-0039-24BB-D930-E84D11739DD0</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clientes_cpfCliente" id="06287DC9-9D7A-CBC9-E394-108196C639D5">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:48:58 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>F3F74731-F90B-3E0B-6674-D25F4C60C376</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="997CA704-0F63-A1B4-35B7-B75A0DD7F659" referredColumn="8168A89B-1DAC-51A5-5AF5-943CAD69B30A"/>
+</associations>
+</Column>
+<Column name="Clientes_idCliente" id="4A3DD99D-5996-08CA-B924-8ED87CFE59F7">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:48:58 UTC</createdTime>
+<generatorID>B8B34669-1CFE-E87E-A26A-426B118048AB</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="997CA704-0F63-A1B4-35B7-B75A0DD7F659" referredColumn="BF349BBA-6D07-88A3-3D7F-F653C446D244"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="001E880C-3A2F-7737-3CA7-6C3B217583F7" name="Mensalidade_PK">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:48:58 UTC</createdTime>
+<generatorID>4CB84D2C-DA04-36F8-2E9A-D9160D6E41B0</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9A8A86A-84F2-DE50-810B-D48B47D48961"/>
+<colUsage columnID="06287DC9-9D7A-CBC9-E394-108196C639D5"/>
+<colUsage columnID="4A3DD99D-5996-08CA-B924-8ED87CFE59F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6EBDAA7-8DFE-3FFC-17BD-2029C5BCA48F" name="Mensalidade_Clientes_FK">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:48:58 UTC</createdTime>
+<generatorID>7BD4CEFE-35C8-9DDF-E35F-498F3CD9671D</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06287DC9-9D7A-CBC9-E394-108196C639D5"/>
+<colUsage columnID="4A3DD99D-5996-08CA-B924-8ED87CFE59F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

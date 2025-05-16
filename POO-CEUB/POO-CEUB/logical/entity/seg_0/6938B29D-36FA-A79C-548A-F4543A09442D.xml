@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6938B29D-36FA-A79C-548A-F4543A09442D" name="TelefonesCliente">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:21:49 UTC</createdTime>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TelefonesCliente</shortName>
+<synonym>TelefonesCliente</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfCliente" id="1F329AAA-1ACA-9689-3322-DEC97D7E1B21">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:21:49 UTC</createdTime>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<importedID>082BA9D5-0C73-9863-B922-50C1CC4227F6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefoneCliente" id="9AC93BC2-5464-0E2F-7ED9-4DF7AEB39925">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:21:49 UTC</createdTime>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<importedID>3DC004FF-E386-D8BC-73E6-76CC720D43F3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoTelefoneCliente" id="38ABC687-7A73-5B66-CA06-6E78DEF98BFB">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:21:49 UTC</createdTime>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<importedID>2CF95B7A-04B5-535A-3498-453D8F7A4E27</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente2" id="51806845-331E-7CF8-889B-E31E3BB725C0">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:21:54 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>9105EB65-48B3-75DC-D8CD-DE6B48E2215D</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<referedAttribute>55FF2767-FEFF-36ED-50CC-50ED20052190</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idCliente" id="B57DA99E-BF70-2453-AC17-2ED76E0A5142">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:30:35 UTC</createdTime>
+<generatorID>9105EB65-48B3-75DC-D8CD-DE6B48E2215D</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<referedAttribute>41A3594D-43A2-A11F-534A-241905B81D69</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CEE0498E-7BC7-7342-33C9-42A85BA55A9B" name="TelefonesCliente PK">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:21:49 UTC</createdTime>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1F329AAA-1ACA-9689-3322-DEC97D7E1B21</attributeRef>
+<attributeRef>9AC93BC2-5464-0E2F-7ED9-4DF7AEB39925</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

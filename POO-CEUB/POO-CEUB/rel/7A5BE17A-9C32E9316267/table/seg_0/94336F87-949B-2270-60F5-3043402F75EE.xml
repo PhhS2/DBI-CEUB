@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="94336F87-949B-2270-60F5-3043402F75EE" name="TelefonesCliente">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:48:58 UTC</createdTime>
+<generatorID>6938B29D-36FA-A79C-548A-F4543A09442D</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<abbreviation>TelefonesCliente</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfCliente" id="48B03C90-7F46-6B61-C9E5-95FBFF144DCB">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:48:58 UTC</createdTime>
+<generatorID>1F329AAA-1ACA-9689-3322-DEC97D7E1B21</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefoneCliente" id="80CA17CC-4A2E-67BC-4938-60302B82E146">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:48:58 UTC</createdTime>
+<generatorID>9AC93BC2-5464-0E2F-7ED9-4DF7AEB39925</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoTelefoneCliente" id="1C0838B0-7600-2EF3-2F41-B3907C73283D">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:48:58 UTC</createdTime>
+<generatorID>38ABC687-7A73-5B66-CA06-6E78DEF98BFB</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clientes_cpfCliente" id="AC7D0507-6D80-817F-57FB-77C2B73D35F2">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:48:58 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>51806845-331E-7CF8-889B-E31E3BB725C0</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="963F901F-F1FF-5EE6-371D-5DA76CD0776C" referredColumn="8168A89B-1DAC-51A5-5AF5-943CAD69B30A"/>
+</associations>
+</Column>
+<Column name="Clientes_idCliente" id="BE569D4B-B719-0BB1-95BA-3B3545C6D0B2">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:48:58 UTC</createdTime>
+<generatorID>B57DA99E-BF70-2453-AC17-2ED76E0A5142</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="963F901F-F1FF-5EE6-371D-5DA76CD0776C" referredColumn="BF349BBA-6D07-88A3-3D7F-F653C446D244"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FAC4BBA1-9CE3-68A5-8F57-FA9EDCE46AB1" name="TelefonesCliente_PK">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:48:58 UTC</createdTime>
+<generatorID>CEE0498E-7BC7-7342-33C9-42A85BA55A9B</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48B03C90-7F46-6B61-C9E5-95FBFF144DCB"/>
+<colUsage columnID="80CA17CC-4A2E-67BC-4938-60302B82E146"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA9E6171-54BF-FE40-B6E4-B93F40F78EB5" name="TelefonesCliente_Clientes_FK">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:48:58 UTC</createdTime>
+<generatorID>9105EB65-48B3-75DC-D8CD-DE6B48E2215D</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC7D0507-6D80-817F-57FB-77C2B73D35F2"/>
+<colUsage columnID="BE569D4B-B719-0BB1-95BA-3B3545C6D0B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

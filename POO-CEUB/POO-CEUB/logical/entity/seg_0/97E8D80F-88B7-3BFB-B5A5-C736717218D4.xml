@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="97E8D80F-88B7-3BFB-B5A5-C736717218D4" name="EnderecoCliente">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:22:39 UTC</createdTime>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<engineerTo>
+<item key="7A5BE17A-3148-42EF-7522-9C32E9316267" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfCliente" id="1B177864-0767-DD10-CD45-0A9D45E9911D">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:22:39 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<importedID>CD61BE3F-E084-8836-6AA4-C024472E658E</importedID>
+<engineerTo>
+<item key="7A5BE17A-3148-42EF-7522-9C32E9316267" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logradouroEnderecoCliente" id="5421FC06-DE64-8502-D939-1899A8AB8E9E">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:22:39 UTC</createdTime>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<importedID>2264C1E0-CA8D-BD99-32FD-5635DAF6C0E3</importedID>
+<engineerTo>
+<item key="7A5BE17A-3148-42EF-7522-9C32E9316267" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nroEnderecoCliente" id="B45602CF-F134-03D6-6A7A-3DEA73CE4E47">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:22:39 UTC</createdTime>
+<comment><![CDATA[Endereço completo da pessoa, sendo:
+Logradouro: Nome da rua ou avenida; 
+Número: Número da casa ou prédio;
+Complemento: Informações adicionais que ajudam a identificar a unidade residencial ou comercial; 
+Bairro: Região do bairro onde se encontra o endereço; 
+Localidade: Nome da cidade, município ou região; 
+Estado: Sigla do estado onde se encontra o endereço. ]]></comment>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<importedID>0A1C0C6E-7DAB-CFB0-F25F-5FA9881C9953</importedID>
+<engineerTo>
+<item key="7A5BE17A-3148-42EF-7522-9C32E9316267" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complementoEnderecoCliente" id="0C64A2F3-C468-3A37-810C-3B69CEDF3B3D">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:22:39 UTC</createdTime>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<importedID>EF79D421-F39D-20EB-0B25-84A35D4317EB</importedID>
+<engineerTo>
+<item key="7A5BE17A-3148-42EF-7522-9C32E9316267" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidadeEnderecoCliente" id="1D9B40B2-31EA-4A45-0841-A1C2F9EF8A24">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:22:39 UTC</createdTime>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<importedID>F80380B4-DDF3-7323-D8B1-10B1BA4A94EC</importedID>
+<engineerTo>
+<item key="7A5BE17A-3148-42EF-7522-9C32E9316267" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ufEnderecoCliente" id="B8BD63CC-0418-E644-D133-62336C6D0356">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:22:39 UTC</createdTime>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<importedID>D8023A97-C1A4-C3C5-4CE6-328A3E278371</importedID>
+<engineerTo>
+<item key="7A5BE17A-3148-42EF-7522-9C32E9316267" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cepEnderecoCliente" id="03D4D623-0988-F805-FFD1-F79EB67F6A6B">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:22:39 UTC</createdTime>
+<comment><![CDATA[CEP: Código de Endereçamento Postal, composto por oito números que identificam a região, o setor, o município, e outras informações importantes para a entrega.]]></comment>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<importedID>F2FFF70E-846A-415D-E85F-7002590E6223</importedID>
+<engineerTo>
+<item key="7A5BE17A-3148-42EF-7522-9C32E9316267" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente2" id="938D4A90-87D9-E2CE-B877-46DB63662D83">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:23:06 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>F2E89EC3-F8D4-9379-E301-F87503F3E556</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<engineerTo>
+<item key="7A5BE17A-3148-42EF-7522-9C32E9316267" value="true"/>
+</engineerTo>
+<referedAttribute>55FF2767-FEFF-36ED-50CC-50ED20052190</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idCliente" id="5DD6472B-4376-50F5-DF18-8B55765C60EE">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:30:35 UTC</createdTime>
+<generatorID>F2E89EC3-F8D4-9379-E301-F87503F3E556</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<engineerTo>
+<item key="7A5BE17A-3148-42EF-7522-9C32E9316267" value="true"/>
+</engineerTo>
+<referedAttribute>41A3594D-43A2-A11F-534A-241905B81D69</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4D410F5F-3662-9B2C-ED26-93A18FEB3F55" name="Clientes PK">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:22:39 UTC</createdTime>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<engineerTo>
+<item key="7A5BE17A-3148-42EF-7522-9C32E9316267" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1B177864-0767-DD10-CD45-0A9D45E9911D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

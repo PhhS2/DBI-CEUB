@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="983C0667-B578-B6AE-C601-5B2F58DAEA9F" name="TelefonesDependente">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:48:58 UTC</createdTime>
+<generatorID>E17C6CE9-CCDC-0311-0EBD-F9603BED5E1C</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<abbreviation>TelefonesCliente</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="telefoneDependente" id="BF6A95C3-1F38-B604-F9A2-8DD62891B7F8">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:48:58 UTC</createdTime>
+<generatorID>80A49399-EF58-EDFD-C4D1-E5AB21681DB1</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoTelefoneDependente" id="3DC26242-6376-1ED2-1A54-3CCD65DA9FF2">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:48:58 UTC</createdTime>
+<generatorID>6EBD6814-52C5-F3D6-D35D-4AEB0DFC2342</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DepenteCliente_idDependente" id="27684C3D-A676-C099-110A-2C5FB4142684">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:48:58 UTC</createdTime>
+<generatorID>056AF2D2-0C90-0CC8-D283-E43E8915EB6D</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B22BF783-A578-5057-95DB-CC3A501C821F" referredColumn="E921BBFC-2832-192B-E823-FAE354E07DE4"/>
+</associations>
+</Column>
+<Column name="DepenteCliente_cpfDependente" id="D0D0D624-AE75-EC45-6401-4FF17877303A">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:48:58 UTC</createdTime>
+<generatorID>9C3FECE1-626B-9FE4-1D16-A0156B430F41</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B22BF783-A578-5057-95DB-CC3A501C821F" referredColumn="ECA831DC-F0D0-8D8C-8067-4F5DA095660A"/>
+</associations>
+</Column>
+<Column name="DepenteCliente_Clientes_cpfCliente" id="E0581962-33F7-EBA4-2C42-788D2E9B62A8">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:48:58 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>36EC2580-D0CE-C417-4B13-89AF84FCF31C</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B22BF783-A578-5057-95DB-CC3A501C821F" referredColumn="1C6ABDE0-D607-CA8F-DC28-5D277BDE583B"/>
+</associations>
+</Column>
+<Column name="DepenteCliente_Clientes_idCliente" id="CDEB1D37-59CD-9860-D383-53D6E411B0F1">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:48:58 UTC</createdTime>
+<generatorID>15FC80F8-D04D-700C-D21B-CFD11330927E</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B22BF783-A578-5057-95DB-CC3A501C821F" referredColumn="EF3A7AD6-8F3C-100C-9614-0896D2376C65"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B4F9012-40C2-2A67-B0C1-969D8D7CA2FD" name="TelefonesDependente_PK">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:48:58 UTC</createdTime>
+<generatorID>F2C089EB-FEFA-9F75-3048-98B38A58BB7F</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF6A95C3-1F38-B604-F9A2-8DD62891B7F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3CBCE32-0BE2-3D5D-B841-B737DBFAC0A6" name="TelefonesDependente_DepenteCliente_FK">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:48:58 UTC</createdTime>
+<generatorID>DF8B9D92-EB28-ECA7-0475-7451ECF71E71</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27684C3D-A676-C099-110A-2C5FB4142684"/>
+<colUsage columnID="D0D0D624-AE75-EC45-6401-4FF17877303A"/>
+<colUsage columnID="E0581962-33F7-EBA4-2C42-788D2E9B62A8"/>
+<colUsage columnID="CDEB1D37-59CD-9860-D383-53D6E411B0F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

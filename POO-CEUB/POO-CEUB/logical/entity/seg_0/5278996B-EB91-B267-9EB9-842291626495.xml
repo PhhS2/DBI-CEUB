@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5278996B-EB91-B267-9EB9-842291626495" name="DepenteCliente">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:24:45 UTC</createdTime>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idDependente" id="80CC5123-C561-7C71-7CBD-40F968B5BE60">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:31:14 UTC</createdTime>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente" id="9AA30668-AA9D-E387-8D53-14A216E72237">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:31:33 UTC</createdTime>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeDependente" id="2E95831D-3701-43CD-0C93-EDC4BF912A1B">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:26:22 UTC</createdTime>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimentoDepentende" id="37DD2ED6-F3C5-DFA9-5787-52363EFA40ED">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:26:57 UTC</createdTime>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grauParentesco" id="FB49888D-F5FC-8EF1-BC8B-8BF95EEBB89B">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:28:05 UTC</createdTime>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente" id="ABC6D6FE-9796-3059-DFD0-FE3C22E1A12E">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:32:48 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>E6E92665-AFB1-1246-FB86-0FDDF2B790F2</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<referedAttribute>55FF2767-FEFF-36ED-50CC-50ED20052190</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idCliente" id="205C2306-6153-730C-D4E0-87B5DA4B8EEB">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:32:48 UTC</createdTime>
+<generatorID>E6E92665-AFB1-1246-FB86-0FDDF2B790F2</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<referedAttribute>41A3594D-43A2-A11F-534A-241905B81D69</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDepentende" id="AA74D9F6-52B6-E295-6507-DB9AACFAB161">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:38:10 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>6E30E090-B773-56A9-F280-28462020AE69</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<referedAttribute>28B39902-037B-BAB6-0293-0BE5BAA8B97E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="130E486C-FB3D-DBA4-F830-487546218383" name="DepenteCliente PK">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:27:11 UTC</createdTime>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>80CC5123-C561-7C71-7CBD-40F968B5BE60</attributeRef>
+<attributeRef>9AA30668-AA9D-E387-8D53-14A216E72237</attributeRef>
+<attributeRef>ABC6D6FE-9796-3059-DFD0-FE3C22E1A12E</attributeRef>
+<attributeRef>205C2306-6153-730C-D4E0-87B5DA4B8EEB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

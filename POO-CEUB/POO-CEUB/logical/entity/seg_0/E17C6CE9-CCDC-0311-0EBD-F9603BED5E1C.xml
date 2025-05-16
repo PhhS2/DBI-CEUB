@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E17C6CE9-CCDC-0311-0EBD-F9603BED5E1C" name="TelefonesDependente">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:38:32 UTC</createdTime>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TelefonesCliente</shortName>
+<synonym>TelefonesCliente</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="telefoneDependente" id="80A49399-EF58-EDFD-C4D1-E5AB21681DB1">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:38:32 UTC</createdTime>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoTelefoneDependente" id="6EBD6814-52C5-F3D6-D35D-4AEB0DFC2342">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:38:32 UTC</createdTime>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idDependente" id="056AF2D2-0C90-0CC8-D283-E43E8915EB6D">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:39:08 UTC</createdTime>
+<generatorID>DF8B9D92-EB28-ECA7-0475-7451ECF71E71</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<referedAttribute>80CC5123-C561-7C71-7CBD-40F968B5BE60</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente" id="9C3FECE1-626B-9FE4-1D16-A0156B430F41">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:39:08 UTC</createdTime>
+<generatorID>DF8B9D92-EB28-ECA7-0475-7451ECF71E71</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<referedAttribute>9AA30668-AA9D-E387-8D53-14A216E72237</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente" id="36EC2580-D0CE-C417-4B13-89AF84FCF31C">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:39:08 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>DF8B9D92-EB28-ECA7-0475-7451ECF71E71</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<referedAttribute>ABC6D6FE-9796-3059-DFD0-FE3C22E1A12E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idCliente" id="15FC80F8-D04D-700C-D21B-CFD11330927E">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:39:08 UTC</createdTime>
+<generatorID>DF8B9D92-EB28-ECA7-0475-7451ECF71E71</generatorID>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<referedAttribute>205C2306-6153-730C-D4E0-87B5DA4B8EEB</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F2C089EB-FEFA-9F75-3048-98B38A58BB7F" name="TelefonesCliente PK">
+<createdBy>Paulo Henrique</createdBy>
+<createdTime>2025-05-16 00:38:32 UTC</createdTime>
+<ownerDesignName>POO-CEUB</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>80A49399-EF58-EDFD-C4D1-E5AB21681DB1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
